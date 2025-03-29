@@ -24,13 +24,14 @@
       max-width: 700px;
     }
     a {
-      border: solid 1px black;
+      border: solid 3px #ffb44e;
       max-width: 200px;
       padding: 5px;
       text-align: center;
+      background-color: #ff5758;
     }
     a:hover {
-      background-color: black;
+      background-color: #ff5758;
       color: white;
     }
   }
@@ -47,6 +48,17 @@
     }
   }
   .overview {
-    background-color: whitesmoke;
+    background-color: #607461;
+  }
+  .projects {
+    background-color: #ed8d05;
+  }
+  h1 {
+    color: #ffb44e;
+    letter-spacing: 7px;
+  }
+  h2 {
+    color: rgb(42, 84, 42);
+    letter-spacing: 5px;
   }
 }

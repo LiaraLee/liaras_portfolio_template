@@ -1,9 +1,9 @@
 import { NavLink } from 'react-router-dom';
-import PlaceholderImage from '../assets/placeholder_image.png';
+import LiaraLee from '../assets/LiaraLee.jpg';
 
 // Replace these variables with your information
-const firstName = 'Replace with your first name';
-const jobTitle = 'Replace with your title';
+const firstName = 'Liara Lee Tite';
+const jobTitle = 'Full Stack';
 const company = 'Replace with your company name';
 const mainDuty = 'Replace with your main duty';
 const jobLocation = 'Replace with your job location';
@@ -17,7 +17,7 @@ const About = () => {
       <section className='about-content-container'>
         <section className='image-container'>
           {/* Replace this placeholder image and alt tag with a professional headshot */}
-          <img className='headshot' src={PlaceholderImage} alt="placeholder image" />
+          <img className='headshot' src={LiaraLee} alt="Liara Lee Headshot" />
         </section>
         <section className='description-container'>
           <h2 className='text-xl font-medium'>I&apos;m {firstName}, a {jobTitle} working for, {company} on {mainDuty} located in, {jobLocation}</h2>

@@ -3,8 +3,8 @@
   justify-content: space-between;
   align-items: center;
   min-height: 100px;
-  background-color: #744af6;
-  color: white;
+  background-color: #ff5758;
+  color: #ffb44e;
   position: sticky;
   top: 0;
   z-index: 98;
@@ -25,14 +25,14 @@
     }
   }
   .sm-links {
-    color: black;
+    color: rgb(17, 69, 17);
     flex-direction: column;
     position: fixed;
-    background-color: white;
+    background-color: #ffb44e;
     top: 0;
     right: 0;
     height: 100vh;
-    border-left: solid 1px black;
+    border-left: solid 1px #0d2f14;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     width: 200px;
@@ -44,11 +44,11 @@
     }
   }
   a:hover {
-    color: blue;
+    color: white;
     text-decoration: underline;
   }
   button:hover {
-    background-color: gray;
+    background-color: #fe322b;
     color: white;
   }
 }
