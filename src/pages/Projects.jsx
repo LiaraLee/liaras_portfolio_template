@@ -1,11 +1,5 @@
 import { FaGithub } from "react-icons/fa6";
 
-// Replace the projects inside the myProjects array with your own projects. Right now the array has sample data. You can add as many projects as you want. Each project should be an object with the following
-// properties:
-// - title: The title of the project
-// - description: A description of the project
-// - repositoryLink: A link to the GitHub repository of the project
-// You can also add more properties if you want to display more information about your projects.
 const myProjects = [
   {
     title: 'Capstone',
@@ -36,6 +30,11 @@ const myProjects = [
     title: 'HTML Team sign up sheet',
     description: 'A sign up sheet for the wonderful Study Room 2 group!',
     repositoryLink: 'https://github.com/LiaraLee/Path2Tech_HTML_Project.git',
+  },
+  {
+    title: 'Terminal ToDo List',
+    description: 'A ToDO list in your terminal, add, delete and verify all tasks for your day.',
+    repositoryLink: 'https://github.com/LiaraLee/JS_PROJECT.git',
   },
 ];
 const Projects = () => {

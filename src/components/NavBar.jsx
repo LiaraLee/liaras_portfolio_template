@@ -31,7 +31,7 @@ const NavBar = () => {
   return (
     <nav className="navigation px-4 py-2">
       <section>
-        <h1 className="text-3xl font-bold">My Portfolio</h1>
+        <h1 className="text-3xl font-bold">Liara Lee Tite Portfolio</h1>
       </section>
       <section className="lg-links">
         <NavLink to="/">Home</NavLink>
@@ -67,7 +67,7 @@ const NavBar = () => {
         </section>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/projects">Projects</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/contact">Contact </NavLink>
         <NavLink to="/about">About</NavLink>
         <DownloadResume />
       </motion.aside>

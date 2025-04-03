@@ -6,8 +6,7 @@ const Contact = () => {
     const email = data.email;
     const body = data.body;
     const subject = data.subject;
-    // The myEmail variable should be replaced with your email address
-    const myEmail= "liara.lee.tite";
+    const myEmail= "liara.lee.tite@gmail.com";
     const mailToLink = `mailto:${myEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent("From: " + email + ", Message: " + body)}`;
     window.location.href = mailToLink;
   }

@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom";
 import Stars from '../assets/Green.jpg'
 
 const fullName = 'LIARA LEE TITE';
-const personalQuote = 'Full Stack Developer and aspiring Video Game Developer';
-const professionalSummary = 'I am a Full Stack Developer with a passion for creating and developing web applications. I have experience working with a variety of technologies and programming languages. I am always looking to learn new things and improve my skills. I am currently working on expanding my knowledge of video game development and hope to one day to develop my own game based on my childhood growing up in a cult.';
+const personalQuote = 'Creative Full Stack Developer and aspiring Video Game Developer';
+const professionalSummary = 'I am a Full Stack Developer with a passion for art, video games, and coding. I have experience working with a variety of technologies and programming languages such as HTML, CSS, JavaScript, Python, React, Express, and MongoDb. I am always looking to learn new things and improve my skills as well as myself as a person. I am currently working on expanding my knowledge of video game development and hope to one day to develop my own game based on my childhood growing up in a cult.';
 
 const Home = () => {
   return (
@@ -28,7 +28,7 @@ const Home = () => {
       <section className="projects home-subsection">
         <h3 className="subsection-intro-header">My Works</h3>
         <h2 className="subsection-big-header">Projects.</h2>
-        <p className="subsection-paragraph">I have worked on multiple project, the projects I have worked on demonstrate my skills and experience through real-life examples of my work. Each project is briefly described and includes links to code repositories that showcase my ability to tackle challenging problems. If you are interested in my work click on the link below to go to the project page.</p>
+        <p className="subsection-paragraph">I have worked on multiple projects that showcase not only my ability to work with multiple coding languages but also express my creativity and the desires of my clients.  If you are interested in my work click on the link below to go to the project page. Each project is briefly described and includes links to code repositories that showcase my ability to tackle challenging problems.</p>
         <NavLink to="/projects">
         View Projects
         </NavLink>
